@@ -1,0 +1,3 @@
+reflex==0.3.7
+# Para instalar el paquete en el entorno virtual, ejecuta el siguiente comando:
+# pip install -r requirements.txt
