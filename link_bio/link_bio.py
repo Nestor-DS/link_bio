@@ -37,6 +37,6 @@ app = rx.App(
 app.add_page(
     index,
     title="Link Bio",
-    description="Link Bio de Nestor Duhamel",
+    description="Link Bio de Nestor",
     image=constants.MY_ICON)
 app.compile()

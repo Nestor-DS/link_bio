@@ -172,7 +172,7 @@ export default function Component() {
   <title>
   {`Link Bio`}
 </title>
-  <meta content={`Link Bio de Nestor Duhamel`} name={`description`}/>
+  <meta content={`Link Bio de Nestor`} name={`description`}/>
   <meta content={`favicon.ico`} property={`og:image`}/>
 </NextHead>
 </Fragment>
