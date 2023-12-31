@@ -170,7 +170,7 @@ export default function Component() {
 </Box>
   <NextHead>
   <title>
-  {`Link Bio`}
+  {`Link-Bio`}
 </title>
   <meta content={`Link Bio de Nestor`} name={`description`}/>
   <meta content={`favicon.ico`} property={`og:image`}/>
