@@ -24,4 +24,4 @@ La página de link-bio es una forma sencilla y elegante de mostrar enlaces impor
 La aplicación estará disponible en http://localhost:3000.
 
 ## Créditos
-Este proyecto está basado en el proyecto original de MoureDev(https://github.com/mouredev).
+Este proyecto está basado en el proyecto original de [MoureDev](https://github.com/mouredev).
