@@ -5,7 +5,7 @@ X_URL = "https://twitter.com/Nestor_DS"
 DISCORD_URL = "https://discord.com/users/0000"
 INSTAGRAM_URL = "https://www.instagram.com/_sar_02_/"
 MAIL_URL = "mailto:nestorduhamel18@outlook.es"
-PORTFOLIO_URL = "https://portfolio-nd.vercel.app/"
+PORTFOLIO_URL = "https://portfolio-ds-ten.vercel.app/"
 
 YOUTUBE_URL = "www.youtube.com/@nestor-d8326"
 LINKEDIN_URL = "https://www.linkedin.com/in/nestor-duhamel-sanchez"

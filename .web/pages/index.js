@@ -74,7 +74,7 @@ export default function Component() {
   <Heading size={`lg`} sx={{"width": "100%", "size": "lg", "paddingTop": "2em", "color": "#F1F2F4", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Links`}
 </Heading>
-  <Link as={NextLink} href={`https://portfolio-nd.vercel.app/`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Link as={NextLink} href={`https://portfolio-ds-ten.vercel.app/`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "whiteSpace": "normal", "textAlign": "start", "backgroundColor": "#171F26", "textColor": "#F1F2F4", "_hover": {"backgroundColor": "#087ec4", "textColor": "#F1F2F4"}}}>
   <HStack sx={{"width": "100%"}}>
   <ChakraImage alt={`Portafolio web`} src={`icons/briefcase-solid.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
