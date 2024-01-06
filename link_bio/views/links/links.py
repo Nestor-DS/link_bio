@@ -9,10 +9,10 @@ def links () -> rx.Component:
     return rx.vstack(
         title("Links"),
         link_button(
-            "GitHub",
+            "Portafolio web",
             "Te invito a ver mis proyectos",
-            constants.GITHUB_ICO,
-            constants.GITHUB_URL
+            constants.PORTFOLIO_ICO,
+            constants.PORTFOLIO_URL
         ),
         link_button(
             "Linkedin",

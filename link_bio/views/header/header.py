@@ -55,8 +55,7 @@ def header() -> rx.Component:
             rx.spacer(),
             info_text("Python", "Lenguaje favorito"),
             rx.spacer(),
-            info_text("0s", "Seguidores"),
-
+            #info_text("0s", "Seguidores"),
             width="100%"
         ),
         rx.text("""Soy un desarrollador de software, mi lenguaje favorito es Python, 

@@ -64,12 +64,6 @@ export default function Component() {
   {` Lenguaje favorito`}
 </Box>
   <Spacer/>
-  <Box sx={{"fontSize": "0.8em", "color": "#C3C7CB"}}>
-  <Text as={`span`} sx={{"fontWeight": "bold", "color": "#14A1F0"}}>
-  {`0s`}
-</Text>
-  {` Seguidores`}
-</Box>
 </Flex>
   <Text sx={{"fontSize": "0.8em", "color": "#C3C7CB"}}>
   {`Soy un desarrollador de software, mi lenguaje favorito es Python, 
@@ -80,13 +74,13 @@ export default function Component() {
   <Heading size={`lg`} sx={{"width": "100%", "size": "lg", "paddingTop": "2em", "color": "#F1F2F4", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Links`}
 </Heading>
-  <Link as={NextLink} href={`https://github.com/Nestor-DS`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Link as={NextLink} href={`https://portfolio-nd.vercel.app/`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "whiteSpace": "normal", "textAlign": "start", "backgroundColor": "#171F26", "textColor": "#F1F2F4", "_hover": {"backgroundColor": "#087ec4", "textColor": "#F1F2F4"}}}>
   <HStack sx={{"width": "100%"}}>
-  <ChakraImage alt={`GitHub`} src={`icons/github-alt.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
+  <ChakraImage alt={`Portafolio web`} src={`icons/briefcase-solid.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
   <Text sx={{"fontSize": "1em", "fontFamily": "Poppins", "fontWeight": "500", "color": "#F1F2F4"}}>
-  {`GitHub`}
+  {`Portafolio web`}
 </Text>
   <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
   {`Te invito a ver mis proyectos`}
@@ -161,7 +155,7 @@ export default function Component() {
   <VStack sx={{"marginButtom": "2em", "color": "#A3ABB2", "paddingButtom": "2em", "paddingX": "2em"}}>
   <ChakraImage alt={`N's icon`} src={`favicon.ico`} sx={{"height": "4em", "borderRadius": "0.8em"}}/>
   <Link as={NextLink} href={`https://github.com/Nestor-DS`} isExternal={true} sx={{"fontSize": "0.8em", "textDecoration": "none", "_hover": {}}}>
-  {`© 2023 - 2023 Nestor`}
+  {`© 2023 - 2024 Nestor`}
 </Link>
   <Text sx={{"fontSize": "0.8em", "marginTop": "0px !important"}}>
   {`Made with Reflex 🐍`}

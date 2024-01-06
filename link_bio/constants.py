@@ -5,12 +5,15 @@ X_URL = "https://twitter.com/Nestor_DS"
 DISCORD_URL = "https://discord.com/users/0000"
 INSTAGRAM_URL = "https://www.instagram.com/_sar_02_/"
 MAIL_URL = "mailto:nestorduhamel18@outlook.es"
+PORTFOLIO_URL = "https://portfolio-nd.vercel.app/"
 
 YOUTUBE_URL = "www.youtube.com/@nestor-d8326"
 LINKEDIN_URL = "https://www.linkedin.com/in/nestor-duhamel-sanchez"
 
-# Images
+# Icon for the page
 MY_ICON = "favicon.ico"
+
+# Images
 MY_PHOTO = "image.jpeg"
 SPONSOR1 = "image.jpeg"
 SPONSOR2 = "image.jpeg"
@@ -25,6 +28,7 @@ TWITTER_ICO = "icons/twitter.svg"
 INSTAGRAM_ICO = "icons/instagram.svg"
 YOUTUBE_ICO = "icons/youtube.svg"
 X_ICO = "icons/x-twitter.svg"
+PORTFOLIO_ICO = "icons/briefcase-solid.svg"
 
 # Sponsors
 EL_GATO = "https://www.elgato.com/es"
