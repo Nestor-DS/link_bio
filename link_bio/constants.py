@@ -1,13 +1,13 @@
 # Social Network Link Bio
 GITHUB_URL = "https://github.com/Nestor-DS"
 TWITCH_URL = "https://www.twitch.tv/nestoram"
-X_URL = "https://twitter.com/Nestor_DS"
+X_URL = "https://x.com/nes_ds18"
 DISCORD_URL = "https://discord.com/users/0000"
 INSTAGRAM_URL = "https://www.instagram.com/_sar_02_/"
 MAIL_URL = "mailto:nestorduhamel18@outlook.es"
 PORTFOLIO_URL = "https://portfolio-ds-ten.vercel.app/"
 
-YOUTUBE_URL = "www.youtube.com/@nestor-d8326"
+YOUTUBE_URL = "https://www.youtube.com/@developerjr56"
 LINKEDIN_URL = "https://www.linkedin.com/in/nestor-duhamel-sanchez"
 
 # Icon for the page

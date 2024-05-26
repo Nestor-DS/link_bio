@@ -40,7 +40,7 @@ export default function Component() {
   <Link as={NextLink} href={`https://github.com/Nestor-DS`} isExternal={true} sx={{"textDecoration": "none", "_hover": {}}}>
   <ChakraImage alt={`Github icon`} src={`icons/github-alt.svg`} sx={{"width": "1.5em", "height": "1.5em"}}/>
 </Link>
-  <Link as={NextLink} href={`https://twitter.com/Nestor_DS`} isExternal={true} sx={{"textDecoration": "none", "_hover": {}}}>
+  <Link as={NextLink} href={`https://x.com/nes_ds18`} isExternal={true} sx={{"textDecoration": "none", "_hover": {}}}>
   <ChakraImage alt={`Email icon`} src={`icons/x-twitter.svg`} sx={{"width": "1.5em", "height": "1.5em"}}/>
 </Link>
   <Link as={NextLink} href={`https://www.linkedin.com/in/nestor-duhamel-sanchez`} isExternal={true} sx={{"textDecoration": "none", "_hover": {}}}>
@@ -67,7 +67,7 @@ export default function Component() {
 </Flex>
   <Text sx={{"fontSize": "0.8em", "color": "#C3C7CB"}}>
   {`Soy un desarrollador de software, mi lenguaje favorito es Python, 
-            actualmente estoy aprendiendo Dart y me interesa aprender más sobre el mundo del desarrollo web y movil.`}
+            actualmente estoy aprendiendo ML, me interesa aprender más sobre el mundo del desarrollo web y movil.`}
 </Text>
 </VStack>
   <VStack spacing={`1em`} sx={{"width": "100%"}}>
@@ -119,7 +119,7 @@ export default function Component() {
 </HStack>
 </Button>
 </Link>
-  <Link as={NextLink} href={`www.youtube.com/@nestor-d8326`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Link as={NextLink} href={`https://www.youtube.com/@developerjr56`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "whiteSpace": "normal", "textAlign": "start", "backgroundColor": "#171F26", "textColor": "#F1F2F4", "_hover": {"backgroundColor": "#087ec4", "textColor": "#F1F2F4"}}}>
   <HStack sx={{"width": "100%"}}>
   <ChakraImage alt={`Youtube`} src={`icons/youtube.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>

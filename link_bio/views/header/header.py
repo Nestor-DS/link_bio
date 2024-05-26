@@ -59,7 +59,7 @@ def header() -> rx.Component:
             width="100%"
         ),
         rx.text("""Soy un desarrollador de software, mi lenguaje favorito es Python, 
-            actualmente estoy aprendiendo Dart y me interesa aprender más sobre el mundo del desarrollo web y movil.""",
+            actualmente estoy aprendiendo ML, me interesa aprender más sobre el mundo del desarrollo web y movil.""",
                 font_size = Size.MEDIUM.value,
                 color = TextColor.BODY.value
                 ),
