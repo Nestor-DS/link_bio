@@ -1,5 +1,3 @@
-test/
-
 *.db
 
 *.py[cod]
@@ -7,3 +5,9 @@ test/
 .web
 
 __pycache__/
+
+test/
+
+.web/
+
+.venv/
