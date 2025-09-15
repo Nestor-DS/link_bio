@@ -1,8 +1,9 @@
 import reflex as rx
 import link_bio.styles.styles as styles
-from link_bio.styles.styles import Size as Size
+from link_bio.styles.styles import Size
 
-def link_button (title: str, body: str, image:str, url: str) -> rx.Component:
+
+def link_button(title: str, body: str, image: str, url: str) -> rx.Component:
     return rx.link(
         rx.button(
             rx.hstack(
@@ -11,15 +12,15 @@ def link_button (title: str, body: str, image:str, url: str) -> rx.Component:
                     width=Size.LARGE.value,
                     height=Size.LARGE.value,
                     margin=Size.MEDIUM.value,
-                    alt=title
+                    alt=title,
                 ),
                 rx.vstack(
-                    rx.text(title, style=styles.button_title_style),
-                    rx.text(body, style=styles.button_body_style),
+                    rx.text(title, sx=styles.button_title_style),
+                    rx.text(body, sx=styles.button_body_style),
                     align_items="start",
-                    spacing=Size.SMALL.value,
+                    spacing="1",
                     padding_y=Size.SMALL.value,
-                    padding_right=Size.SMALL.value
+                    padding_right=Size.SMALL.value,
                 ),
                 width="100%",
             )
@@ -27,5 +28,5 @@ def link_button (title: str, body: str, image:str, url: str) -> rx.Component:
         href=url,
         is_external=True,
         width="100%",
-        text_decoration="none"
+        border_radius=Size.SMALL.value,
     )

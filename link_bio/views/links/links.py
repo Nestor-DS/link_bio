@@ -1,58 +1,42 @@
 import reflex as rx
 from link_bio.components.link_button import link_button
 from link_bio.components.title import title
-from link_bio.styles.styles import Size
 import link_bio.constants as constants
 
 
-def links () -> rx.Component:
+def links() -> rx.Component:
     return rx.vstack(
         title("Links"),
         link_button(
-            "Portafolio web",
-            "Te invito a ver mis proyectos",
+            "Web Portfolio",
+            "Check out my projects",
             constants.PORTFOLIO_ICO,
-            constants.PORTFOLIO_URL
+            constants.PORTFOLIO_URL,
         ),
         link_button(
-            "Linkedin",
-            "Perfil profesional",
+            "LinkedIn",
+            "Professional profile",
             constants.LINKEDIN_ICO,
-            constants.LINKEDIN_URL
+            constants.LINKEDIN_URL,
         ),
         link_button(
             "Instagram",
-            "Un poco sobre mi",
+            "A bit about me",
             constants.INSTAGRAM_ICO,
-            constants.INSTAGRAM_URL
+            constants.INSTAGRAM_URL,
         ),
         link_button(
             "Youtube",
-            "Videos de programación",
+            "Programming videos",
             constants.YOUTUBE_ICO,
-            constants.YOUTUBE_URL
+            constants.YOUTUBE_URL,
         ),
         link_button(
             "Email",
             "nestorduhamel18@outlook.es",
             constants.MAIL_ICO,
-            constants.MAIL_URL),
-        
-        # title("Links"),
-        
-        # link_button(
-        #     "Twitter",
-        #     "¡Descubre mis pensamientos más ingeniosos!",
-        #     constants.TWITCH_ICO,
-        #     constants.TWITTER_URL
-        # ),
-        # link_button(
-        #     "Twitch",
-        #     "Canal primario",
-        #     constants.TWITCH_ICO,
-        #     constants.TWITCH_URL
-        # ),
-        
+            constants.MAIL_URL,
+        ),
         width="100%",
-        spacing=Size.DEFAULT.value,
+        spacing="2",
     )
